@@ -1,14 +1,24 @@
 body {
+    background: linear-gradient(60deg, rgb(85, 85, 85) 1%, rgb(187, 187, 187) 100%); 
 }
 
 main#container {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: darkgray;
+    box-shadow: 8px 8px 0 0 rgb(44, 44, 44);
 }
 
 h1.titulo {
+    font-size: 36px;
+    color: white;
 }
 
 p.frase {
+    font-size: 16px;
 }
 
 p.autor {
+    font-size: 12px;
+    color: gainsboro;
 }
